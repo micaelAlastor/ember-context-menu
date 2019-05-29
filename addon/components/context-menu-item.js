@@ -13,6 +13,7 @@ export default Component.extend({
 
   classNames:        ['context-menu__item'],
   classNameBindings: [
+    'itemClassName',
     'isDisabled:context-menu__item--disabled',
     '_isParent:context-menu__item--parent'
   ],
